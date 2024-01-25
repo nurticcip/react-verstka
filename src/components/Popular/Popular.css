@@ -1,0 +1,82 @@
+.popular h1{
+    margin: 50px 0;
+    color: #030A1B;
+    font-size: 44px;
+    font-weight: 600;
+}
+.block{
+    width: 362px;
+    height: 503px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+
+.block:hover{
+    transform: scale(1.01);
+    box-shadow:inset;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.block-hero{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.block-name h2{
+    margin: 10px 0 0 35px  ;
+    color: #030A1B;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.block-hero {
+    padding: 10px 0 0 35px;
+}
+.hero-icons {
+    padding: 10px 35px;
+}
+
+.block-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    align-items: center;
+}
+
+.block-footer h5{
+    color: #FE753F;
+    font-size: 22px;
+    font-weight: 600;
+}
+.block-footer button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--ASSENT, #2E6EFF);
+    padding: 10px 20px;
+    border: none;
+    transition: .2s;
+}
+.block-footer button:hover{
+    background: #f5ebe0;
+    color: #2E6EFF;
+    font-weight: 530;
+}

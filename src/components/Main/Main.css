@@ -1,0 +1,167 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-left h1{
+    width: 558px;
+    color: #030A1B;
+    font-size: 61px;
+    font-weight: 600;
+    line-height: 120%; 
+}
+.main-left p{
+    width: 558px;
+    color: #030A1B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px; 
+    margin: 20px 0;
+}
+
+.market{
+    display: flex;
+}
+
+.buy{
+    width: 70px;
+    height: 50px;
+    background: #fff8f0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: .4s ;
+    border-radius: 5px 0px 0px 0px ;
+}
+.rent{
+    width: 70px;
+    height: 50px;
+    background: #fff8f0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: .4s ;
+
+}
+.sell{
+    width: 70px;
+    height: 50px;
+    background: #fff8f0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: .4s ;
+    border-radius: 0px 5px 0px 0px ;
+}
+.buy:hover, .rent:hover, .sell:hover{
+    background: #fec89a;
+
+}
+
+.buy h2{
+    font-size: 18px;
+    font-weight: 600;
+}.rent h2{
+    font-size: 18px;
+    font-weight: 600;
+}.sell h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.market-menu select{
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.market-menu{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.market-menu h2{
+    color: #030A1B;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.location{
+    width: 150px;
+    height: 60px;
+    background: #fff8f0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px; 
+    display: flex;
+    transition: .6s;
+    border-radius: 0px 0px 0px 5px;
+}
+.location:hover{
+    background: #fec89a;
+}
+.property{
+    width: 150px;
+    height: 60px;
+    background: #fff8f0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px; 
+    display: flex;
+    transition: .6s;
+}
+.property:hover{
+    background: #fec89a;
+}
+.price{
+    width: 150px;
+    height: 60px;
+    background: #fff8f0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    transition: .6s;
+    padding: 0 15px; 
+}
+.price:hover{
+    background: #fec89a;
+
+}
+.search {
+    width: 150px;
+    height: 60px;
+    background: #fff8f0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    transition: .6s;
+}
+.search button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--ASSENT, #2E6EFF);
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.search:hover{
+    background: #fec89a;
+
+}
+
+.vertival-line{
+    width: 1px;
+    height: 34px;
+    opacity: 0.1;
+    background: #030A1B;
+}

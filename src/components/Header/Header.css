@@ -1,0 +1,33 @@
+.header{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a{
+    color: #030A1B;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .2s;
+}
+.header-links a:hover{
+    color: #FE753F;   
+}
+
+.header-button button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: var(--ASSENT, #2E6EFF);
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+

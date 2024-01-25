@@ -1,0 +1,59 @@
+#get{
+    margin: 50px 0;
+}
+.get{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    background: #433E89;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.get h1{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px; 
+}
+
+.get p{
+    color: #FFF;
+    width: 635px;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.get-btn{
+    width: 743px;
+    height: 70px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.get-btn input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 60px;
+    font-size: 20px;
+}
+
+.get-btn button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 40px;
+    border-radius: 10px;
+    background: var(--ASSENT, #2E6EFF);
+    border: none;
+    margin: 10px;
+}

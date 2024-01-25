@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1{
+    color: #030A1B;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer h2{
+    color: #030A1B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px; 
+    text-transform: capitalize;
+    padding: 5px 0;
+    transition: .4s;
+}
+.footer h2:hover{
+    color: #fe753f;
+}
+
+
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+.footer-icons p{
+    width: 260px;
+    color: #030A1B;
+    font-size: 22px;
+    font-weight: 600;
+    color: #030A1B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.special-networks ion-icon{
+    width: 30px;
+    height: 30px;
+    color: #fe753f;
+    border-radius: 50%;
+    margin: 10px;
+}
